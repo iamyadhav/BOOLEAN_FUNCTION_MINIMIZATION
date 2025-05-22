@@ -32,53 +32,32 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-```
+![image](https://github.com/Priyanghaofficial/BOOLEAN_FUNCTION_MINIMIZATION/assets/147121154/065c50ba-dfa7-4ec0-a8ae-fd2771671394)
+
+
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by:Yadhav G P
+Developed by: YAdhav G P
+
 RegisterNumber:212223230247
 
-module exp2(A,B,C,D,W,X,Y,Z,F1,F2);
-input A,B,C,D,W,X,Y,Z;
-wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
-output F1,F2;
-assign x1=(~A)&(~B)&(~C)&(~D);
-assign x2=(A)&(~C)&(~D);
-assign x3=(~B)&(C)&(~D);
-assign x4=(~A)&(B)&(C)&(D);
-assign x5=(B)&(~C)&(D);
-assign x6=(X)&(~Y)&(Z);
-assign x7=(~X)&(~Y)&(Z);
-assign x8=(~W)&(X)&(Y);
-assign x9=(W)&(~X)&(Y);
-assign x10=(W)&(X)&(Y);
-assign F1=x1|x2|x3|x4|x5;
-assign F2=x6|x7|x8|x9|x10;
-endmodule
+**truth table**
+![WhatsApp Image 2024-03-14 at 21 17 56_56fd9fc1](https://github.com/Priyanghaofficial/BOOLEAN_FUNCTION_MINIMIZATION/assets/147121154/8fae6b19-12ff-4b5d-8dd3-4a12408bb750)
 
-*/
-```
 
 **RTL realization**
-
-![image](https://github.com/user-attachments/assets/83b00688-53ce-4b6f-947d-6d64ec0e1623)
-
-**Truth Table**
+![Screenshot (254)](https://github.com/Priyanghaofficial/BOOLEAN_FUNCTION_MINIMIZATION/assets/147121154/35793fd4-0e7d-40a1-b091-4ac645cdda1e)
 
 
-![TRUTH TABLE FOR EX2](https://github.com/user-attachments/assets/afc3a642-9382-4700-8677-6e9486d40c60)
+**Output:**
+![Screenshot (256)](https://github.com/Priyanghaofficial/BOOLEAN_FUNCTION_MINIMIZATION/assets/147121154/8f9c13ca-3b42-462f-a28b-1096922a0f71)
 
 
-
-**Timing Diagram**
-
-
-![image](https://github.com/user-attachments/assets/61d0b8b4-ac20-432e-97ec-a27ec9f377f5)
-
+**Timing Diagram:**
+![Screenshot 2025-04-29 104755](https://github.com/user-attachments/assets/dd4b46a1-1010-4e91-860b-3e14b836148f)
 
 
 
 **Result:**
-
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
