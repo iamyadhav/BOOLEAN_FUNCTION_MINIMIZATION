@@ -32,32 +32,37 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-![image](https://github.com/Priyanghaofficial/BOOLEAN_FUNCTION_MINIMIZATION/assets/147121154/065c50ba-dfa7-4ec0-a8ae-fd2771671394)
-
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+```
+module exp2(a,b,c,d,f1,w,x,y,z,f2);
+input a,b,c,d,w,x,y,z;
+output f1,f2;
+assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
+assign f2=((~y&z)|(x&y)|(w&y));
+endmodule
+```
 
-Developed by: YAdhav G P
-
-RegisterNumber:212223230247
-
-**truth table**
-![WhatsApp Image 2024-03-14 at 21 17 56_56fd9fc1](https://github.com/Priyanghaofficial/BOOLEAN_FUNCTION_MINIMIZATION/assets/147121154/8fae6b19-12ff-4b5d-8dd3-4a12408bb750)
-
-
-**RTL realization**
-![Screenshot (254)](https://github.com/Priyanghaofficial/BOOLEAN_FUNCTION_MINIMIZATION/assets/147121154/35793fd4-0e7d-40a1-b091-4ac645cdda1e)
-
-
-**Output:**
-![Screenshot (256)](https://github.com/Priyanghaofficial/BOOLEAN_FUNCTION_MINIMIZATION/assets/147121154/8f9c13ca-3b42-462f-a28b-1096922a0f71)
+Developed by:Pavithra k   RegisterNumber:212224240112
 
 
-**Timing Diagram:**
-![Screenshot 2025-04-29 104755](https://github.com/user-attachments/assets/dd4b46a1-1010-4e91-860b-3e14b836148f)
+**logic symbol & truth table:**
+![Screenshot 2025-04-23 180137](https://github.com/user-attachments/assets/af4663fa-5551-4c49-aaed-f69248ab68f4)
 
+
+
+![Screenshot 2025-04-23 180209](https://github.com/user-attachments/assets/53b9f195-969d-4852-bc05-1fece35bd12e)
+
+
+
+**RTL**
+![Screenshot 2025-04-23 174215](https://github.com/user-attachments/assets/f1e288c3-68f1-4fe6-8afe-75473fa5ade9)
+
+**Timing Diagram**
+![Screenshot 2025-04-23 174153](https://github.com/user-attachments/assets/705c860c-b0d9-47d0-a822-383709dced82)
 
 
 **Result:**
+
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
